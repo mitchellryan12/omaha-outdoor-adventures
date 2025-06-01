@@ -1,131 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Omaha Outdoor Adventures</title>
-<!-- Force rebuild: Added RV image to hero -->
-<style>
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-color: #333;
-background-color: #f5f5f5;
-}
-header {
-background: url('images/hero-rv.jpg') no-repeat center center;
-background-size: cover;
-color: white;
-text-align: center;
-padding: 100px 20px;
-}
-header h1 {
-font-size: 48px;
-margin-bottom: 20px;
-}
-header p {
-font-size: 20px;
-}
-.cta-button {
-background-color: #4CAF50;
-color: white;
-padding: 15px 30px;
-border: none;
-border-radius: 5px;
-font-size: 18px;
-cursor: pointer;
-margin-top: 30px;
-text-decoration: none;
-display: inline-block;
-}
-section {
-padding: 60px 20px;
-max-width: 1000px;
-margin: auto;
-}
-.services, .packages {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-gap: 30px;
-}
-.card {
-background: white;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-footer {
-background-color: #222;
-color: white;
-text-align: center;
-padding: 30px 20px;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omaha Outdoor Adventures</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <div class="overlay">
+      <h1>Omaha Outdoor Adventures</h1>
+      <p>Luxury Glamping & Outdoor Rentals in the Omaha Area</p>
+      <a href="#packages" class="button">Book Now</a>
+    </div>
+  </header>
 
-<header>
-<h1>Omaha Outdoor Adventures</h1>
-<p>Luxury Glamping & Outdoor Rentals in the Omaha Area</p>
-<a href="#" class="cta-button">Book Now</a>
-</header>
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>To bring unforgettable outdoor experiences to backyards, campsites, and events across the Omaha area. We make glamping easy, fun, and full of adventure.</p>
+  </section>
 
-<section>
-<h2>What We Offer</h2>
-<div class="services">
-<div class="card">
-<h3>Glamping Tents</h3>
-<p>Spacious White Duck tents for camping, events, and overnight retreats.</p>
-</div>
-<div class="card">
-<h3>Party Packages</h3>
-<p>Tents, jump houses, tables & chairs delivered for your event.</p>
-</div>
-<div class="card">
-<h3>Adventure Add-Ons</h3>
-<p>Fire pits, coolers, games, fishing gear & more — everything you need outside.</p>
-</div>
-</div>
-</section>
+  <section id="packages">
+    <h2>Our Packages</h2>
+    <div class="package">
+      <h3>Glamping Tent Package</h3>
+      <ul>
+        <li>Luxury White Duck bell tent (13' or 16')</li>
+        <li>Interior setup with lighting & air mattress</li>
+        <li>Delivered and set up at your location</li>
+        <li>Perfect for birthdays, overnights, or date night</li>
+      </ul>
+      <p class="price">Starting at $199/night</p>
+    </div>
+  </section>
 
-<section>
-<h2>Bundle Packages</h2>
-<div class="packages">
-<div class="card">
-<h3>Party Package – $500</h3>
-<p>Includes tent, jump house, and table/chair setup. Great for birthdays or backyard events.</p>
-</div>
-<div class="card">
-<h3>Glamping Kit – $150</h3>
-<p>Includes tent, chairs, fire pit, and YETI cooler. Perfect for camping or weekend escapes.</p>
-</div>
-</div>
-</section>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="images/emmy.jpg" alt="Emmy the dog">
+    <p><strong>Meet Emmy — Head of Barketing</strong><br>
+    She’s not great with emails or scheduling, but she’s top dog when it comes to good vibes, tail wags, and campsite morale.</p>
+  </section>
 
-<section>
-<h2>How It Works</h2>
-<div class="services">
-<div class="card">
-<h3>1. Choose Your Package</h3>
-<p>Pick the glamping or party rental bundle that fits your needs.</p>
-</div>
-<div class="card">
-<h3>2. Pick a Date & Location</h3>
-<p>We'll deliver and set everything up at your home, park, or campground.</p>
-</div>
-<div class="card">
-<h3>3. Relax & Enjoy</h3>
-<p>We handle setup and takedown — you enjoy the great outdoors in style.</p>
-</div>
-</div>
-</section>
-
-<footer>
-<p>Omaha Outdoor Adventures LLC<br>
-Serving Omaha, NE and surrounding areas</p>
-<p>Email: info@omahaoutdooradventures.com</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2025 Omaha Outdoor Adventures. All rights reserved.</p>
+  </footer>
 </body>
 </html>
